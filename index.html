@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgroSaathi – Smart Farming for a Bumper Harvest</title>
+<meta name="description" content="Detect crop diseases with AI, get weather advisories, crop recommendations and trade directly in the farmer marketplace.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans+Gujarati:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="bar">
+  <a class="logo" href="#home"><i>🌱</i><div><b>AgroSaathi</b><small>एग्रोसाथी</small></div></a>
+  <nav class="dn"><a href="#home" data-i="n_home">Home</a><a href="#features" data-i="n_feat">Features</a><a href="#how" data-i="n_how">How it works</a><a href="#faq">FAQ</a></nav>
+  <div class="tools">
+   <button class="ib" id="theme" aria-label="Toggle theme">☀</button>
+   <button class="ib burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+ </div>
+ <div class="menu" id="menu">
+  <div class="langs"><span>Select Language</span><div><button data-l="en" class="on">EN</button><button data-l="hi">हिंदी</button><button data-l="gu">ગુજરાતી</button></div></div>
+  <a class="act" href="#home">🌱 <span data-i="n_home">Home</span></a>
+  <a href="#">▦ <span data-i="n_dash">Dashboard</span></a>
+  <a href="#" data-scan>⛶ <span data-i="n_dis">Disease Detection</span></a>
+  <a href="#features">🤖 <span data-i="n_ai">AI Assistant</span></a>
+  <a href="#features">🏪 <span data-i="n_mkt">Marketplace</span></a>
+  <a href="#features">⛅ <span data-i="n_wx">Weather &amp; Forecast</span></a>
+  <a href="#features">💡 <span data-i="n_crop">Crop Recommendation</span></a>
+  <hr>
+  <a href="#">👤 <span data-i="n_prof">My Profile</span></a>
+  <a class="out" href="#">⇥ <span data-i="n_out">Sign Out</span></a>
+ </div>
+</header>
+
+<main id="home">
+<div class="wrap hero">
+ <span class="pill">✦ <span data-i="pill">100% Free for Farmers</span></span>
+ <h1 data-i="h1">Smart Farming for a Bumper Harvest</h1>
+ <p data-i="sub">Detect crop diseases instantly with AI, get weather advisories, real-time crop recommendations, and trade direct in the farmer marketplace.</p>
+ <div class="btns"><a class="b1" href="#" data-scan>⛶ <span data-i="scan">Scan Crop Disease</span> →</a><a class="b2" href="#features">🤖 <span data-i="ask">Ask AI Saathi</span></a></div>
+ <div class="stats">
+  <div><b>96.8%</b><span data-i="s1">Disease Scan Accuracy</span></div>
+  <div><b>50,000+</b><span data-i="s2">Verified Farmers</span></div>
+  <div><b>₹0</b><span data-i="s3">Middleman Fee</span></div>
+ </div>
+ <div class="demo">
+  <div class="photo"><div class="scan"><span>⛶ Scanning Leaf…</span></div></div>
+  <div class="res"><em>98%</em><div><b>Tomato Early Blight</b><u>Moderate</u><span>Organically spray Neem seed extract 5% or Copper Oxychloride @ 3g/liter.</span></div></div>
+  <a class="b1" href="#" data-scan data-i="live">Try Live Crop Scan Now</a>
+ </div>
+</div>
+
+<section id="features"><div class="wrap">
+ <div class="sh"><h2 data-i="f_h">Everything You Need for Modern Agriculture</h2><p data-i="f_p">Integrated AI tools designed specifically for soil health, disease diagnostics, weather advisories, and profitable mandi trading.</p></div>
+ <div class="grid">
+  <div class="card"><div class="ico">⛶</div><h3>Gemini Vision Disease Scan</h3><p>Instant leaf analysis powered by Gemini AI. Detect 50+ crop diseases, get organic &amp; chemical treatments with dosage recommendations.</p><a href="#" data-scan>Explore Feature →</a></div>
+  <div class="card"><div class="ico" style="background:linear-gradient(135deg,#14b8a6,#0f766e)">🤖</div><h3>Multilingual Krishi AI Saathi</h3><p>Ask farming queries in English, Hindi (हिंदी), or Gujarati (ગુજરાતી). Get expert advice on pest control, fertilizers, and irrigation.</p><a href="#">Explore Feature →</a></div>
+  <div class="card"><div class="ico">🏪</div><h3>Direct Farmer Mandi</h3><p>Buy and sell crops directly without middleman commissions. Verified farmer badges build trust for seamless deals.</p><a href="#">Explore Feature →</a></div>
+  <div class="card"><div class="ico" style="background:linear-gradient(135deg,#06b6d4,#0e7490)">⛅</div><h3>Agri Weather &amp; Soil Moisture</h3><p>7-day micro-weather forecasting with soil moisture estimates and timely agricultural warnings against frost or heavy rains.</p><a href="#">Explore Feature →</a></div>
+  <div class="card"><div class="ico" style="background:linear-gradient(135deg,#eab308,#65a30d)">💡</div><h3>AI Crop &amp; Soil Finder</h3><p>Input your soil type, season, and location to receive tailored crop suggestions with estimated yield and profit per acre.</p><a href="#">Explore Feature →</a></div>
+  <div class="card"><div class="ico" style="background:linear-gradient(135deg,#22c55e,#15803d)">🛡</div><h3>KVK Farmer Verification</h3><p>Government &amp; KVK backed digital verification for farmers and produce sellers to ensure quality and fair market pricing.</p><a href="#">Explore Feature →</a></div>
+ </div>
+</div></section>
+
+<section id="how"><div class="wrap"><div class="how">
+ <div class="sh"><small>SIMPLE 3-STEP PROCESS</small><h2 data-i="how_h">How AgroSaathi Works</h2></div>
+ <div class="steps">
+  <div class="step"><span class="n">1</span><span class="big">01</span><h3>Capture or Upload</h3><p>Take a photo of the affected leaf or enter your soil details.</p></div>
+  <div class="step"><span class="n">2</span><span class="big">02</span><h3>Gemini AI Diagnosis</h3><p>Our neural vision model scans symptoms in seconds.</p></div>
+  <div class="step"><span class="n">3</span><span class="big">03</span><h3>Get Cure &amp; Action Plan</h3><p>Receive exact organic remedies, chemical spray dosage, and nearby pesticide availability.</p></div>
+ </div>
+</div></div></section>
+
+<section><div class="wrap">
+ <div class="sh"><h2>Trusted by 50,000+ Farmers Across India</h2><p>Real stories from farmers across Gujarat, Punjab, Maharashtra, MP, and Uttar Pradesh.</p></div>
+ <div class="grid">
+  <div class="card"><p class="q">“AgroSaathi’s disease scan identified leaf curl virus in my cotton crop on day 1. The recommended Neem &amp; Diafenthiuron spray saved 12 acres of yield!”</p><div class="who"><div class="av">RP</div><div><b>Ramesh Patel</b><span>Cotton &amp; Wheat Farmer • Anand, Gujarat</span></div></div></div>
+  <div class="card"><p class="q">“The weather advisories prevented me from spraying fungicide right before unseasonal rain. Saved over ₹15,000 in wasted chemical costs.”</p><div class="who"><div class="av">HS</div><div><b>Harpreet Singh</b><span>Paddy &amp; Potato Cultivator • Ludhiana, Punjab</span></div></div></div>
+  <div class="card"><p class="q">“Selling directly on AgroSaathi Marketplace got me 18% higher price per quintal compared to local middleman APMC commission agents.”</p><div class="who"><div class="av">SD</div><div><b>Savita Devi</b><span>Tomato &amp; Onion Farmer • Nashik, Maharashtra</span></div></div></div>
+ </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+ <div class="sh"><h2>Frequently Asked Questions</h2></div>
+ <div class="faq">
+  <details open><summary>How accurate is the Gemini AI crop disease detection?</summary><p>AgroSaathi uses Google’s Gemini multimodal vision model. It delivers high diagnosis accuracy across common Indian crops including Rice, Wheat, Cotton, Tomato, Potato, Sugarcane, and Pulses.</p></details>
+  <details><summary>Is AgroSaathi available in Hindi and Gujarati?</summary><p>Yes. Use the language selector in the menu to switch between English, हिंदी and ગુજરાતી. The AI Assistant also replies in the language you ask in.</p></details>
+  <details><summary>Do I need to pay to use the Crop Disease Scan or AI Assistant?</summary><p>No. Crop Disease Scan and the AI Assistant are free for farmers.</p></details>
+  <details><summary>How do I sell my produce in the Marketplace?</summary><p>Register, verify your farmer profile, then list your crop with quantity and price. Buyers contact you directly, with no middleman fee.</p></details>
+  <details><summary>What if I don’t have an internet camera connected?</summary><p>You can upload a leaf photo from your phone gallery, or describe the symptoms to the AI Assistant in text.</p></details>
+ </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="cta">
+ <h2 data-i="cta_h">Ready to Upgrade Your Farm Yield with AI?</h2>
+ <p>Join thousands of farmers already using AgroSaathi to protect crops, optimize soil nutrition, and double profit margins.</p>
+ <div class="btns"><a class="b1" href="#">Get Started Free</a><a class="b2" href="#">Dashboard</a></div>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="fg">
+  <div><a class="logo" href="#home"><i>🌱</i><div><b>AgroSaathi</b><small>એગ્રોસાથી</small></div></a>
+   <p style="color:var(--mut);font-size:14px;margin-top:14px">India’s premier AI platform for farmers, agronomists, and buyers. Empowering Indian farmers with Gemini Vision AI leaf diagnosis, real-time weather advisories, soil crop recommendations, and direct farmer-to-buyer mandi.</p>
+   <div class="help">KISAN CALL CENTRE HELPLINE<b>6355419744 <small style="font-weight:400">(Toll Free)</small></b></div></div>
+  <div><h4>PLATFORM SERVICES</h4><ul><li><a href="#features">Disease Detection</a></li><li><a href="#features">AI Assistant</a></li><li><a href="#features">Marketplace</a></li><li><a href="#features">Weather &amp; Forecast</a></li><li><a href="#features">Crop Recommendation</a></li></ul></div>
+  <div><h4>ACCOUNTS &amp; PORTAL</h4><ul><li><a href="#">Dashboard</a></li><li><a href="#">Sign In</a></li><li><a href="#">Register</a></li><li><a href="#">My Profile</a></li></ul></div>
+  <div><h4>KRISHI KENDRA HUB</h4><ul><li>📍Mehasana , Gujarat - 384001</li><li>✉ <a href="mailto:support@agrosaathi.ai.studio">support@agrosaathi.ai.studio</a></li></ul></div>
+ </div>
+ <div class="copy"><span>© 2026 AgroSaathi (એગ્રોસાથી). All rights reserved.</span><span>Built with ♥ for Indian Agriculture &amp; Farmers</span></div>
+</div></footer>
+
+
+<div class="modal" id="scanModal" role="dialog" aria-modal="true" aria-labelledby="scanTitle" hidden>
+ <div class="mbox">
+  <button class="ib mclose" id="scanClose" aria-label="Close">✕</button>
+  <h2 id="scanTitle">Crop Disease Scan</h2>
+  <p class="mut">Take a clear photo of the affected leaf, or upload one from your gallery.</p>
+  <label class="drop" id="drop">
+   <input type="file" id="scanFile" accept="image/*" capture="environment" hidden>
+   <img id="scanPreview" alt="Leaf preview" hidden>
+   <span id="dropText">📷 Tap to take or upload a leaf photo</span>
+  </label>
+  <button class="b1 full" id="scanGo" disabled>Scan Leaf</button>
+  <div id="scanStatus" class="status" aria-live="polite"></div>
+  <div id="scanResult" hidden></div>
+ </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
